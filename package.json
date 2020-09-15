@@ -1,0 +1,25 @@
+{
+  "name": "tailwind_cource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss css/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexburnitdown/tailwind_cource.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexburnitdown/tailwind_cource/issues"
+  },
+  "homepage": "https://github.com/alexburnitdown/tailwind_cource#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.10"
+  }
+}
