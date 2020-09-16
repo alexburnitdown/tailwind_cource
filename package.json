@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "postcss css/style.css -o public/style.css"
+    "build-css": "postcss css/style.css -o public/style.css",
+    "watch": "postcss css/style.css -o public/style.css --watch"
   },
   "repository": {
     "type": "git",
